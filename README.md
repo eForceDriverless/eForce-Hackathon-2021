@@ -1,8 +1,8 @@
 # eForce-Hackathon-2021
 
-## Zadani
+## Schedule
 
-
+![schedule.png](schedule.png)
 
 ### pptk fix
 
