@@ -1,2 +1,5 @@
 numpy
 pptk
+pandas
+sklearn
+matplotlib
