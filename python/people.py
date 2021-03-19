@@ -160,7 +160,7 @@ def show3(points):
             "x": float(V[0]),
             "y": float(V[1]),
             "z": float(V[2]),
-            "intesity": float(V[3])
+            "intensity": float(V[3])
             })
     return json.dumps(OutDict)
 
