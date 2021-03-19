@@ -31,3 +31,11 @@ def show(points):
     """
     v = pptk.viewer((points[:, :3]), points[:, 3])
     v.set(point_size=0.02)
+
+if __name__ == "__main__":
+    fileName = "../data/cones/pointclouds/cloud0.json"
+
+    jsonData = read_pointcloud(fileName)
+    npData = pointcloud_to_numpy_array(jsonData)
+    show(np.where(np.logical_and(npData[:, 2] > 0, npData[:, 2] < 0.25)))
+
