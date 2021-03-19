@@ -1,2 +1,5 @@
 numpy
 pptk
+json
+scipy
+scikit-learn
